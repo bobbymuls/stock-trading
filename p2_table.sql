@@ -23,7 +23,7 @@ CREATE TABLE users
                   ,
     phone_no INTEGER NOT NULL
                   ,
-    dob VARCHAR(30) NOT NULL
+    dob DATE NOT NULL
                   ,
     PRIMARY KEY (user_id)
 );
